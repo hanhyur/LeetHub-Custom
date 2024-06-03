@@ -2,7 +2,7 @@
 # LeetHub v3 - Sync your code with GitHub
 
 <p align="center">
-  <a href="https://github.com/raphaelheinz/LeetHub-3.0/blob/main/LICENSE">
+  <a href="https://github.com/hanhyur/LeetHub-Custom/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license"/>
   </a>
   <a href="https://chromewebstore.google.com/u/1/detail/leethub-v3/kdkgpjpenaeoodajljkflmlnkoihkmda">
@@ -11,8 +11,8 @@
   <a href="https://chromewebstore.google.com/u/1/detail/leethub-v3/kdkgpjpenaeoodajljkflmlnkoihkmda">
     <img src="https://img.shields.io/chrome-web-store/d/kdkgpjpenaeoodajljkflmlnkoihkmda.svg" alt="users">
   </a>
-  <a href="https://github.com/raphaelheinz/LeetHub-3.0/graphs/contributors" alt="Contributors">
-    <img src="https://img.shields.io/github/contributors/raphaelheinz/LeetHub-3.0" />
+  <a href="https://github.com/hanhyur/LeetHub-Custom/graphs/contributors" alt="Contributors">
+    <img src="https://img.shields.io/github/contributors/hanhyur/LeetHub-Custom" />
   </a>
 </p>
 <h1 align="center">
@@ -20,8 +20,8 @@
 </h1>
 
 
-## What is LeetHub-3.0?
-
+## What is LeetHub-Custom?
+e
 A chrome extension that automatically pushes your code to GitHub when you pass all tests on a <a href="http://leetcode.com/">Leetcode</a> problem. It's forked from <a href="https://github.com/arunbhardwaj/LeetHub-2.0">LeetHub-2.0</a> which is not compatible with Leetcode anymore since the latest updates.
 
 
@@ -37,7 +37,7 @@ There's no easy way of accessing your leetcode problems in one place! Moreover, 
 
 ## Supported UI
 
-LeetHub-3.0 works with two different Leetcode UIs. There are known issues when using the plugin with the "non-dynamic layout". Please use one of the following:
+LeetHub-Custom works with two different Leetcode UIs. There are known issues when using the plugin with the "non-dynamic layout". Please use one of the following:
 
 1. **old layout** or
 2. new **"dynamic layout"**
@@ -69,9 +69,9 @@ In the meantime, we have added a manual synchronization button next to notes ico
 
     * Create your own OAuth app in GitHub (https://github.com/settings/applications/new) and store CLIENT_ID and CLIENT_SECRET confidentially
         * Application name: [CUSTOM]
-        * Homepage URL: https://github.com/raphaelheinz/LeetHub-3.0
+        * Homepage URL: https://github.com/hanhyur/LeetHub-Custom
         * Authorization callback URL: https://github.com/
-    * Download the project ZIP (<a href="https://github.com/raphaelheinz/LeetHub-3.0/releases">Releases</a>) or clone this repository
+    * Download the project ZIP (<a href="https://github.com/hanhyur/LeetHub-3.0/releases">Releases</a>) or clone this repository
     * Run ```npm run setup``` to install the developer dependencies
     * Update CLIENT_ID and CLIENT_SECRET in ```scripts/authorize.js``` and ```scripts/oauth2.js``` with your ids
     * Go to <a href="chrome://extensions">chrome://extensions</a>
@@ -103,5 +103,5 @@ npm run lint-test     # Test if code is linted properly
 
 Please help to further improve this awesome plugin! We would appreciate your support. Your pull requests are welcome!
 
-Don't forget to star this repository for further development of new features. If you want a particular feature, simply [request](https://github.com/raphaelheinz/LeetHub-3.0/labels/feature) for it!
+Don't forget to star this repository for further development of new features. If you want a particular feature, simply [request](https://github.com/hanhyur/LeetHub-3.0/labels/feature) for it!
 
